@@ -1,6 +1,6 @@
 RewriteEngine On
 RewriteBase /
 
-RewriteCond %{THE_REQUEST} public/([^\s?]*) [NC]
+RewriteCond %{THE_REQUEST} public_html/([^\s?]*) [NC]
 RewriteRule ^ %1 [L,NE,R=302]
-RewriteRule ^((?!public/).*)$ gamenews/public/$1 [L,NC]
+RewriteRule ^((?!public_html/).*)$ gamenews/public/$1 [L,NC]
