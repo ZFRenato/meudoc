@@ -1,5 +1,5 @@
 <?php
 
-echo "index home"
+echo "index home!"
 
 ?>
