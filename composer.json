@@ -1,0 +1,19 @@
+{
+    "name": "renato/gamenews",
+    "description": "projeto curso",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Renato",
+            "email": "renatopscarlos@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    }
+
+
+}

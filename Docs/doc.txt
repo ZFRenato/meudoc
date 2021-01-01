@@ -1,0 +1,14 @@
+================ Campos 
+
+id = Identificador
+titulo = nome do jogo
+descricao = breve descrcao do jogo
+videoId = trailer do jogo
+
+
+================= Validacao
+
+id = int && > 0
+titulo = > 3 && < = 100
+descricao => 10 && <= 250
+videoId != "" && <= 15 
